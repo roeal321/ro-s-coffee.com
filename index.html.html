@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-image: url('https://domf5oio6qrcr.cloudfront.net/medialibrary/9263/bigstock-Coffee-Cup-Cup-Of-Coffee-1375146.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+body {font-family:'Times New Roman', Times, serif;}
+
+/* Style the tab */
+.tab {
+
+  font-family: 'Times New Roman';
+  overflow: hidden;
+  border: 5px solid rgb(10, 10, 10);
+  background-color: rgb(238, 242, 243);
+}
+
+#SHOP {
+  background-color:rgba(190, 66, 149, 0.615);
+  font-style: 'Times New Roman';
+  font-size: 30px;
+}
+
+
+#SERVICES {
+  background-color:rgba(196, 19, 137, 0.85);
+  font-style: 'Times New Roman';
+  font-size: 30px;
+}
+
+
+#MEMBER {
+    background-color:rgba(219, 26, 142, 0.824);
+  font-style: 'Times New Roman';
+  font-size: 30px;
+  
+}
+
+#ABOUT {
+  font-style: 'Times New Roman';
+  font-size: 30px;
+  background-color: rgba(203, 28, 174, 0.85);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+  #FEEDBACK {
+    background-color:rgba(196, 19, 137, 0.85);
+  font-style: 'Times New Roman';
+  font-size: 30px;
+  
+  
+  }
+  #CONTACT {
+  font-style: 'Times New Roman';
+  font-size: 30px;
+  background-color: rgba(203, 28, 174, 0.85);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: rgb(247, 242, 246);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: rgb(7, 8, 7);
+  color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 3px solid rgb(9, 9, 9);
+  border-top: none;
+}
+
+/* style the tab button*/
+.tablink {
+  background-color: rgb(240, 134, 4);
+  color: rgb(234, 30, 228);
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+  transition: 0.3 ease;
+  }
+
+  
+
+</style>
+</head>
+<body>
+
+<h2 style="color: rgb(2, 0, 5)">RO's<span style="color: rgb(5, 5, 5);">Coffee Hub</span></h2>
+<p2 style="color: rgb(237, 243, 243)">WEBSITE FOR THOSE WHO LOVES COFFEE.</p2>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'SHOP')">SHOP</button>
+  <button class="tablinks" onclick="openCity(event, 'SERVICES')">SERVICES</button>
+  <button class="tablinks" onclick="openCity(event, 'MEMBER')">MEMBER</button>
+  <button class="tablinks" onclick="openCity(event, 'ABOUT')">ABOUT</button>
+  <button class="tablinks" onclick="openCity(event, 'CONTACT')">CONTACT</button>
+</div>
+
+<div id="SHOP" class="tabcontent">
+    <p4 style="color:#ccc">Here are the types of coffee we have.</p4>
+    <br><p4>MENU:</p4></br>
+  <p2 style= "color: rgba(28, 189, 68, 0.961)"></p2> 
+  <img src="https://www.tasteofhome.com/wp-content/uploads/2020/02/Types-of-Coffee-Drinks_1200X1200.jpg" height="400" width="400">
+  <img src="https://www.tasteofhome.com/wp-content/uploads/2020/02/Types-of-iced-Coffee-2_1200X1200.jpg?fit=680,680" height="400" width="400">
+</div>
+
+<div id="SERVICES" class="tabcontent">
+    <br><p5>:PRE-ORDER</p5></br>
+    <P5>:DELIVERY</P5>
+    <p2 style="color:rgb(200, 155, 155)">
+    <img src="" >
+  <p></p2>
+</div>
+
+<div id="MEMBER" class="tabcontent">
+    <p3>MEMBERS:</p3>
+    <p2 style="color:blueviolet"></p2>
+    <br><p3>Mr.Gedrick Miles Carabuena</p3></br>
+    <p3>Mr.Joemarie Ronday</p3>
+    <p3><br>MANAGER:</br>Mr.Tristan Roe Alguno</p3>
+
+</div>
+
+<div id="ABOUT" class="tabcontent">
+    <p2>Ro's Shop is your One Stop Coffee. Our Coffee Shop focus on people's taste and quality as gives you better feels in your perspective with your daily routines to ease your soul and minds.</p5>
+</div>
+<div id="ABOUT" class="tabcontent"></div>
+
+<div id="CONTACT" class="tabcontent">
+    <div id="CONTACT" class="tabcontent"></div>
+    <h5>For more information please contact us on our phone number:<br>09092887194</br></h5>
+
+</div>
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+   
+</body>
+<h1 style="color:rgb(248, 242, 246)">"Private Policy"</h1>
+</style>
+</html> 
